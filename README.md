@@ -138,29 +138,10 @@ Health check: http://localhost:5000/health
 | POST   | `/api/notes/:id/duplicate`| Duplicate note        | ✅   |
 | POST   | `/api/ai/summarize`       | AI summarize note     | ✅   |
 
-## 🚢 Deployment
-
-### Frontend → Vercel
-
-1. Push to GitHub
-2. Import project in Vercel
-3. Set root directory to `frontend`
-4. Set environment variable: `VITE_API_URL=https://your-backend.onrender.com/api`
-5. Deploy
-
-### Backend → Render
-
-1. Create a new Web Service on Render
-2. Set root directory to `backend`
-3. Build command: `npm install`
-4. Start command: `node server.js`
-5. Set environment variables from `.env.example`
-6. Update `CLIENT_URL` to your Vercel URL
-
 ## 📝 License
 
 MIT License — feel free to use this project for learning, personal projects, or as a starter template.
 
 ---
 
-**Built with ❤️ using the MERN Stack + Gemini AI**
+**Built with using the MERN Stack + Gemini AI**
