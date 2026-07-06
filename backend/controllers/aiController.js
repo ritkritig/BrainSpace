@@ -49,7 +49,7 @@ const summarizeNote = async (req, res) => {
 
     // Initialize Gemini client
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
 
     const prompt = `You are an intelligent note summarizer. Analyze the following note and provide a structured response.
 
