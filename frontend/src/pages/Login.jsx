@@ -40,7 +40,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-primary-600 via-primary-700 to-indigo-900">
+    <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-white">
       {/* Animated background shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-400/20 rounded-full blur-3xl animate-pulse-slow" />
@@ -51,16 +51,16 @@ export default function Login() {
       <div className="relative z-10 w-full max-w-md mx-4 animate-fade-in">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-4 shadow-glow">
-            <HiOutlineSparkles className="w-8 h-8 text-white" />
+          <div className="w-16 h-16 rounded-2xl bg-primary-500/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-4 shadow-glow">
+            <HiOutlineSparkles className="w-8 h-8 text-primary-900" />
           </div>
-          <h1 className="text-3xl font-bold text-white font-display">BrainSpace</h1>
+          <h1 className="text-3xl font-bold text-primary-900 font-display">BrainSpace</h1>
           <p className="text-primary-200 mt-2">AI-Powered Productivity Workspace</p>
         </div>
 
         {/* Form card */}
-        <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20">
-          <h2 className="text-xl font-semibold text-white mb-6">Welcome back</h2>
+        <div className="bg-primary-500/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20">
+          <h2 className="text-xl font-semibold text-primary-700 mb-6">Welcome back</h2>
 
           {error && (
             <div className="mb-4 px-4 py-3 rounded-xl bg-red-500/20 border border-red-400/30 text-red-100 text-sm animate-fade-in">
@@ -70,9 +70,9 @@ export default function Login() {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-primary-100 mb-1.5">Email</label>
+              <label className="block text-sm font-medium text-primary-500 mb-1.5">Email</label>
               <div className="relative">
-                <HiOutlineEnvelope className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-primary-300" />
+                <HiOutlineEnvelope className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-primary-500" />
                 <input
                   type="email"
                   name="email"
@@ -86,9 +86,9 @@ export default function Login() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-primary-100 mb-1.5">Password</label>
+              <label className="block text-sm font-medium text-primary-500 mb-1.5">Password</label>
               <div className="relative">
-                <HiOutlineLockClosed className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-primary-300" />
+                <HiOutlineLockClosed className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-primary-500" />
                 <input
                   type="password"
                   name="password"
@@ -119,7 +119,7 @@ export default function Login() {
 
           <p className="text-center text-sm text-primary-200 mt-6">
             Don&apos;t have an account?{' '}
-            <Link to="/signup" className="text-white font-medium hover:underline underline-offset-2">
+            <Link to="/signup" className="text-primary-500 font-medium hover:underline underline-offset-2">
               Sign up
             </Link>
           </p>
