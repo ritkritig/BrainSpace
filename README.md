@@ -35,7 +35,7 @@ A production-quality full-stack MERN application for students and professionals.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="README-assets/BrainSpace-Collage.jpeg" alt="BrainSpace UI" width="900"/>
+  <img src="README-assets/BrainSpace-Collage.png" alt="BrainSpace UI" width="900"/>
 </p>
 
 
