@@ -32,6 +32,12 @@ A production-quality full-stack MERN application for students and professionals.
 | Backend   | Node.js, Express.js, MongoDB Atlas, Mongoose, JWT, bcrypt       |
 | AI        | Google Gemini API (gemini-1.5-flash)                            |
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="README-assets/BrainSpace-Collage.jpeg" alt="BrainSpace UI" width="900"/>
+</p>
+
 
 ## 📁 Project Structure
 
@@ -153,40 +159,14 @@ Health check: http://localhost:5000/health
 - User data is isolated so users can only access their own notes and folders
 
 
-## Screenshots
-
-### Login Page
-
-![Login](README-assets/BrainSpace-Login.jpeg)
-
-### Dashboard
-
-![Dashboard](README-assets/BrainSpace-Dashboard.jpeg)
-
-### Rich Text Editor
-
-![Editor](README-assets/BrainSpace-Editor.jpeg)
-
-### AI Summary
-
-![AI Summary](README-assets/BrainSpace-AISummary.jpeg)
-
-### DarkMode
-
-![Dashboard](README-assets/BraiSpace-DarkMode.jpeg)
-
-### Mobile View
-
-![Dashboard](README-assets/BrainSpace-MobileView.jpeg)
-
 ## 🚀 Future Enhancements
 
-- 🤝 Real-time collaborative note editing
-- 🎤 Voice-to-text note creation
-- 📄 Markdown and PDF export
-- 📅 Calendar integration for reminders
-- 🔍 OCR support for extracting text from images
-- 💬 AI chat assistant for note discussions
+- Real-time collaborative note editing
+- Voice-to-text note creation
+- Markdown and PDF export
+- Calendar integration for reminders
+- OCR support for extracting text from images
+- AI chat assistant for note discussions
 
   
 ## 📝 License
