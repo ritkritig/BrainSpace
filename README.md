@@ -1,8 +1,14 @@
 # 🧠 BrainSpace – AI Productivity Workspace
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-22-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI-4285F4?logo=google&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 A production-quality full-stack MERN application for students and professionals. Manage notes with a rich text editor, organize them into folders, and get AI-powered summaries using Google's Gemini API.
-
-![BrainSpace](https://img.shields.io/badge/MERN-Stack-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 ## ✨ Features
 
@@ -137,6 +143,16 @@ Health check: http://localhost:5000/health
 | POST   | `/api/notes/:id/pin`      | Toggle pin            | ✅   |
 | POST   | `/api/notes/:id/duplicate`| Duplicate note        | ✅   |
 | POST   | `/api/ai/summarize`       | AI summarize note     | ✅   |
+
+## 🔒 Security
+
+- Passwords are securely hashed using **bcrypt**
+- JWT-based authentication with protected API routes
+- Environment variables used for sensitive configuration
+- MongoDB Atlas connection secured through connection string and authentication
+- User data is isolated so users can only access their own notes and folders
+
+
 ## Screenshots
 
 ### Login Page
@@ -163,7 +179,16 @@ Health check: http://localhost:5000/health
 
 ![Dashboard](README-assets/BrainSpace-MobileView.jpeg)
 
+## 🚀 Future Enhancements
 
+- 🤝 Real-time collaborative note editing
+- 🎤 Voice-to-text note creation
+- 📄 Markdown and PDF export
+- 📅 Calendar integration for reminders
+- 🔍 OCR support for extracting text from images
+- 💬 AI chat assistant for note discussions
+
+  
 ## 📝 License
 
 MIT License — feel free to use this project for learning, personal projects, or as a starter template.
