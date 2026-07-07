@@ -25,7 +25,7 @@ A production-quality full-stack MERN application for students and professionals.
 | Frontend  | React 19, Vite, Tailwind CSS, React Router DOM, TipTap, Axios  |
 | Backend   | Node.js, Express.js, MongoDB Atlas, Mongoose, JWT, bcrypt       |
 | AI        | Google Gemini API (gemini-1.5-flash)                            |
-| Deploy    | Frontend → Vercel, Backend → Render                             |
+
 
 ## 📁 Project Structure
 
@@ -137,6 +137,32 @@ Health check: http://localhost:5000/health
 | POST   | `/api/notes/:id/pin`      | Toggle pin            | ✅   |
 | POST   | `/api/notes/:id/duplicate`| Duplicate note        | ✅   |
 | POST   | `/api/ai/summarize`       | AI summarize note     | ✅   |
+## Screenshots
+
+### Login Page
+
+![Login](README-assets/BrainSpace-Login.jpeg)
+
+### Dashboard
+
+![Dashboard](README-assets/BrainSpace-Dashboard.jpeg)
+
+### Rich Text Editor
+
+![Editor](README-assets/BrainSpace-Editor.jpeg)
+
+### AI Summary
+
+![AI Summary](README-assets/BrainSpace-AISummary.jpeg)
+
+### DarkMode
+
+![Dashboard](README-assets/BraiSpace-DarkMode.jpeg)
+
+### Mobile View
+
+![Dashboard](README-assets/BrainSpace-MobileView.jpeg)
+
 
 ## 📝 License
 
